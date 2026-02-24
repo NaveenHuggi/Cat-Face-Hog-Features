@@ -104,7 +104,6 @@ Chausie                ▏                           10
 American Wirehair      ▏                            9
 Canadian Hairless      ▏                            4
 Cymric                 ▏                            5
-Chinchilla             (no samples)                 0
 ```
 
 ---

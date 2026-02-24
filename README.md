@@ -250,46 +250,6 @@ This dataset is suitable for:
 
 ---
 
-## 📐 Feature Vector Geometry
-
-```
-                   T-Zone Patch (eyes → nose)
-                   ┌─────────────────────┐
-                   │  👁       👁        │
-                   │                     │
-                   │         👃          │
-                   └─────────────────────┘
-                   
-                   ↓ Resized to uniform patch
-                   
-                   14 × 14 HOG cell grid
-                   ┌──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
-                   │  │  │  │  │  │  │  │  │  │  │  │  │  │  │
-                   ├──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┼──┤
-                   │  │  │  │  │  │  │  │  │  │  │  │  │  │  │
-                   ├─ ...  14 rows × 14 cols = 196 cells ─────┤
-                   │  each cell = 9-bin gradient histogram     │
-                   └──────────────────────────────────────────┘
-                   
-                   196 cells × 9 bins = 1,764-dim feature vector
-```
-
----
-
-## 📜 Citation
-
-If you use this dataset in your research or project, please cite:
-
-```
-@dataset{cat_tzone_biometrics_2024,
-  title     = {Cat Breeds T-Zone Biometrics — HOG Feature Dataset},
-  year      = {2024},
-  note      = {HOG features extracted from the inter-ocular (T-Zone) region of 25 cat breeds},
-  records   = {11582},
-  features  = {1764-dimensional HOG descriptor},
-}
-```
-
 ---
 
 ## 📄 License

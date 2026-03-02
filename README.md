@@ -74,7 +74,6 @@ The resulting 1,764-dimensional vector captures:
 | Ocicat | 60 | 0.0000 | 0.6670 | 0.1300 | 0.1043 |
 | Himalayan | 422 | 0.0000 | 0.6145 | 0.1327 | 0.1009 |
 
-> ⚠️ **Note:** The `Chinchilla` breed has **0 samples** in this release. It is listed in the schema but lacks extracted data.
 
 ### Dataset Distribution
 
